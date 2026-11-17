@@ -1,0 +1,5 @@
+{
+  "recognition_threshold": 65.0,
+  "stable_identity_frames": 8,
+  "enrollment_images": 40
+}

@@ -1,0 +1,9 @@
+# Python 3.11 recommended; these core versions were tested with Python 3.12.
+# Install only the non-headless contrib OpenCV wheel in a clean environment.
+numpy==1.26.4
+opencv-contrib-python==4.11.0.86
+mediapipe==0.10.21
+# Compatible JAX is a dependency of this MediaPipe release.
+jax==0.4.35
+jaxlib==0.4.35
+tzdata>=2024.1
