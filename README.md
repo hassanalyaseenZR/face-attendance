@@ -10,7 +10,7 @@ You do not need to register or train again when you copy both folders. Face prep
 
 You can also replace ONLY `attendance.py` and add `face_detection.py` in your existing project folder. Its existing config.json and virtual environment work with these files. This lets you retain your current setup; register.py in that folder may still import FaceTracker from liveness.py, but registration never performs challenges and the new attendance.py does not import liveness.py. The clean project supplied here contains no liveness.py.
 
-## Run on macOS
+## Run on Pi
 
 Open Terminal inside the new project folder. Python 3.11 must be installed.
 
